@@ -1,0 +1,9 @@
+flask
+openai
+pyodbc
+sentence-transformers
+faiss-cpu 
+faiss-gpu
+pymupdf 
+fitz
+numpy

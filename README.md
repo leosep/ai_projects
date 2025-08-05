@@ -10,6 +10,7 @@ This repository contains some practical artificial intelligence projects.
 1. [Context-Aware Smart ChatBot](#1-context-aware-smart-chatbot)
 2. [Ad Campaign Analyzer](#2-ad-campaign-analyzer)
 3. [Marketing Task Automator](#3-marketing-task-automator)
+4. [bank-chatbot](#4-bank-chatbot)
 
 ---
 
@@ -49,6 +50,13 @@ Describe your product and the app will generate:
 
 Technologies: Flask, Bootstrap, OpenAI GPT-3.5  
 Folder: `ai_marketing_assistant/`
+
+## 4. Bank Chatbot
+
+Whatsapp chatbot
+
+Technologies: baileys, Flask, OpenAI gpt-3.5-turbo, mistralai/Mistral-7B-Instruct-v0.2
+Folder: `bank-chatbot/`
 
 ---
 
