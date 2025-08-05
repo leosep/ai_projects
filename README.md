@@ -62,10 +62,17 @@ Folder: `bank-chatbot/`
 
 ## How to Run
 
-Each folder contains its own instructions, but in general:
+For python:
 
 ```bash
 cd <project>
 pip install -r requirements.txt
 python app.py
+```
+
+For Node:
+
+```bash
+cd <project>
+node app.js
 ```
