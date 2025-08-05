@@ -56,6 +56,7 @@ Folder: `ai_marketing_assistant/`
 Whatsapp chatbot
 
 Technologies: baileys, Flask, OpenAI gpt-3.5-turbo, mistralai/Mistral-7B-Instruct-v0.2
+
 Folder: `bank-chatbot/`
 
 ---
