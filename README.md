@@ -11,6 +11,7 @@ This repository contains some practical artificial intelligence projects.
 2. [Ad Campaign Analyzer](#2-ad-campaign-analyzer)
 3. [Marketing Task Automator](#3-marketing-task-automator)
 4. [bank-chatbot](#4-bank-chatbot)
+5. [photo_processor_csharp](#5-photo-processor-csharp)
 
 ---
 
@@ -59,6 +60,14 @@ Technologies: baileys, Flask, OpenAI gpt-3.5-turbo, mistralai/Mistral-7B-Instruc
 
 Folder: `bank-chatbot/`
 
+## 5. Photo Processor Csharp
+
+ID Photo Processor
+
+Technologies: .NET, Emgu.CV
+
+Folder: `photo_processor_csharp/`
+
 ---
 
 ## How to Run
@@ -77,3 +86,12 @@ For Node:
 cd <project>
 node app.js
 ```
+
+For the Photo Processor:
+
+```bash
+PhotoProcessor.exe "Source Folder" "Destination Folder" [width] [height] [dpi]
+PhotoProcessor.exe "C:\FotosTests\Originals" "C:\FotosTests\Converted" 400 400 72
+```
+
+
