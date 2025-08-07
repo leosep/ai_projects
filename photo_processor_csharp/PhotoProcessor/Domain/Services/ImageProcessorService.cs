@@ -1,15 +1,10 @@
 ﻿namespace PhotoProcessor.Domain.Services
 {
-    // Importa las entidades del dominio.
     using PhotoProcessor.Domain.Entities;
-    // Importa las librerías de Emgu.CV para procesamiento de imágenes.
     using Emgu.CV;
-    //using Emgu.CV.BitmapExtension; // Necesario para el método de extensión ToMat()
-    // Importa las librerías de System.Drawing para manipulación de imágenes.
     using System.Drawing;
-    using System.Linq; // Necesario para operaciones LINQ como OrderByDescending
+    using System.Linq;
 
-    // Servicio de dominio para el procesamiento de imágenes.
     public class ImageProcessorService
     {
         private readonly CascadeClassifier _faceCascade;
@@ -25,7 +20,6 @@
             }
             catch (Exception ex)
             {
-                // Lanza una excepción si hay un error al cargar el Haar Cascade.
                 throw new InvalidOperationException($"Error al cargar Haar Cascade: {ex.Message}\nAsegúrese de que '{_options.HaarCascadePath}' está en el directorio de la aplicación.", ex);
             }
         }

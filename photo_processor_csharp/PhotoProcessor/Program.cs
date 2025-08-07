@@ -1,16 +1,13 @@
 ﻿namespace PhotoProcessor.ConsoleApp
 {
-    // Importa los casos de uso de la capa de aplicación.
+    
     using PhotoProcessor.Application.UseCases;
-    // Importa las entidades y servicios del dominio.
     using PhotoProcessor.Domain.Entities;
     using PhotoProcessor.Domain.Services;
-    // Importa las utilidades de infraestructura.
     using PhotoProcessor.Infrastructure.Utilities;
-    // Importa librerías estándar de C#.
     using System;
     using System.IO;
-    using System.Threading.Tasks; // Necesario para Task y async/await
+    using System.Threading.Tasks;
 
     class Program
     {

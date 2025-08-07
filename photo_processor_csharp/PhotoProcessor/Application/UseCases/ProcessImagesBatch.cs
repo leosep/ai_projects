@@ -1,15 +1,12 @@
 ﻿namespace PhotoProcessor.Application.UseCases
 {
-    // Importa las entidades y servicios del dominio.
     using PhotoProcessor.Domain.Entities;
     using PhotoProcessor.Domain.Services;
-    // Importa librerías para manipulación de imágenes y archivos.
     using System.Drawing;
     using System.Drawing.Imaging;
     using System.IO;
     using System.Threading.Tasks;
 
-    // Caso de uso para procesar un lote de imágenes.
     public class ProcessImagesBatch
     {
         private readonly ImageProcessorService _imageProcessorService;
